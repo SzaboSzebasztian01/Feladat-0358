@@ -11,12 +11,13 @@
 import java.util.Scanner;
 
 public class MainConsole {
-
+    
     public MainConsole() {
         about();
         task();
         calcer();
     }
+    
     private void task(){
         System.out.println("Feladat 0358 meg.");
         System.out.println("Paralelepipedon Térfogatszámítás");
@@ -32,7 +33,7 @@ public class MainConsole {
         Calc calc = new Calc();
         String AStr = input("Írja be az A él hosszának értékét: ");
         String BStr = input("Írja be a B él hosszának értékét: ");
-        String CStr = input("Írja be a C él hosszanak értékét: ");
+        String CStr = input("Írja be a C él hosszának értékét: ");
         Double aside = Double.parseDouble(AStr);
         Double bside = Double.parseDouble(BStr);
         Double cside = Double.parseDouble(CStr);
